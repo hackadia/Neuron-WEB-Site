@@ -69,6 +69,28 @@ body {
   color: var(--white-color);
 }
 
+.announcement {
+  display: inline-block;
+  height:30px;
+  text-align: center;
+  width: 100%;
+  background: black;
+  color: white;
+  font-family: Arial, sans;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font-size: 0.8em;
+}
+
+.announcement a { 
+  color: #ccc; 
+}
+
+.announcement a:hover {
+  color: red;
+}
+
 ul {
   list-style: none;
 }
